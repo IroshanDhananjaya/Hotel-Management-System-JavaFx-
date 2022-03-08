@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="reserveContext" prefHeight="426.0" prefWidth="646.0" style="-fx-background-color: #2f3542;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.RoomReceptionistFormController">
+   <children>
+      <Button layoutX="70.0" layoutY="121.0" mnemonicParsing="false" onAction="#roomAvailabilityOnAction" prefHeight="81.0" prefWidth="539.0" text="Check Room Availability">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="70.0" layoutY="27.0" mnemonicParsing="false" onAction="#addGuestOnAction" prefHeight="81.0" prefWidth="539.0" text="Add Guest Details">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="70.0" layoutY="213.0" mnemonicParsing="false" onAction="#selectMealplanOnAction" prefHeight="81.0" prefWidth="539.0" text="Select Meal Plan">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#backToOnAction" text="&lt;&lt;">
+         <effect>
+            <DropShadow />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button layoutX="70.0" layoutY="307.0" mnemonicParsing="false" onAction="#BookingDetailsOnAction" prefHeight="81.0" prefWidth="539.0" text="Booking Details">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>
